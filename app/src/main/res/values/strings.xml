@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextEditor</string>
+    <string name="del">删除</string>
+</resources>
