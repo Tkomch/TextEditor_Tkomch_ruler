@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">TextEditor</string>
+    <string name="newdir">新建文件夹</string>
+    <string name="up_return">返回上一层</string>
+    <string name="choosedir">保存文件夹</string>
+    <string name="returns">返回</string>
+    <string name="opens">打开</string>
+    <string name="news">新建</string>
     <string name="del">删除</string>
+    <string name="ok">确定</string>
+    <string name="no">取消</string>
+    <string name="pageup">上一页</string>
+    <string name="pagedown">下一页</string>
+    <string name="edit">编辑/非编辑</string>
+    <string name="save">保存</string>
 </resources>

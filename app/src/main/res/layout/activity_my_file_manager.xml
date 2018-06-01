@@ -4,57 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity1">
+    tools:context=".MyFileManager">
 
     <LinearLayout
-        android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="horizontal">
-
-        <LinearLayout
+        <ListView
+            android:id="@+id/file_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <TextView
-                android:id="@+id/testinfo"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="7"/>
-            <ScrollView
-                android:id="@+id/sv1"
-                android:layout_height="match_parent"
-                android:layout_width="match_parent"
-                android:layout_weight="1">
-                <ListView
-                    android:id="@+id/text_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-                </ListView>
-            </ScrollView>
-        </LinearLayout>
-
-
-
+        </ListView>
         <LinearLayout
-            android:id="@+id/bar"
             android:layout_height="match_parent"
             android:layout_width="match_parent"
             android:layout_weight="4"
             android:orientation="vertical">
             <Button
-                android:id="@+id/open_btn"
+                android:id="@+id/up_return"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
-                android:text="@string/opens"/>
+                android:text="@string/up_return"/>
             <Button
-                android:id="@+id/new_btn"
+                android:id="@+id/return_btn"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_weight="1"
-                android:text="@string/news"/>
-        </LinearLayout>
-
+                android:text="@string/returns"/>
+        </LinearLayout>>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
